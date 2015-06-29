@@ -57,6 +57,11 @@ cheatsheet do
 			name 'Start from the OS X Recovery System'
 			notes 'Available on Macs that ship with OS X Lion or newer. Some CPUs require an [EFI BootROM update to support this feature](http://support.apple.com/kb/HT4904).'
 		end
+		entry do
+			command 'CMD+OPTION+R'
+			name 'Start from the OS X Internet Recovery System'
+			notes 'Available on Macs that ship with OS X Lion or newer. Some CPUs require an [EFI BootROM update to support this feature](https://support.apple.com/en-us/HT201314).'
+		end
 	end
 	notes 'For the best experience with startup keys, press the keys immediately after the startup tone plays.'
 end
